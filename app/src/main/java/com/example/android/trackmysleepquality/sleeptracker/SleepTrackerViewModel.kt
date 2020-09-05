@@ -157,6 +157,7 @@ class SleepTrackerViewModel(
      *  If the start time and end time are not the same, then we do not have an unfinished
      *  recording.
      */
+
     private suspend fun getTonightFromDatabase(): SleepNight? {
         return withContext(Dispatchers.IO) {
             var night = database.getTonight()
@@ -234,6 +235,18 @@ class SleepTrackerViewModel(
             // Show a snackbar message, because it's friendly.
             _showSnackbarEvent.value = true
         }
+    }
+
+    fun onSleepNightClicked(id: Long) {
+        _navigateToSleepDetail.value = id
+    }
+
+    private val _navigateToSleepDetail = MutableLiveData<Long>()
+    val navigateToSleepDetail
+        get() = _navigateToSleepDetail
+
+    fun onSleepDetailNavigated() {
+        _navigateToSleepDetail.value = null
     }
 
     /**
