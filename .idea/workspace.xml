@@ -63,6 +63,13 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\RecyclerViewFundamentals-Starter\app\build\generated\source\navigation-args\debug\com\example\android\trackmysleepquality" />
+      <recent name="C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\RecyclerViewFundamentals-Starter\app\src\main\java\com\example\android\trackmysleepquality" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.android.trackmysleepquality.sleepdetail" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.android.trackmysleepquality" />
     </key>
