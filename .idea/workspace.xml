@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07439ccf-7621-46b9-92d3-4359eb3b26aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_sleep_night.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,9 +127,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="274" key="AndroidCreateResourceFileDialog" timestamp="1599296557476">
+    <state x="540" y="274" key="AndroidCreateResourceFileDialog" timestamp="1599298012683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="274" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599296557476" />
+    <state x="540" y="274" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599298012683" />
   </component>
 </project>

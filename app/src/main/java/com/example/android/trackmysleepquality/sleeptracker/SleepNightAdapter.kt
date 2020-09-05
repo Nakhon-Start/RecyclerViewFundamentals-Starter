@@ -39,4 +39,8 @@ class SleepNightAdapter: RecyclerView.Adapter<TextItemViewHolder>() {
         return TextItemViewHolder(view)
 
     }
+    class TextItemViewHolder(val textView: TextView): RecyclerView.ViewHolder(textView){
+
+    }
+
 }
